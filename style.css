@@ -1,7 +1,35 @@
+.bg-by {
+    background: #FDFEFE;
+}
+
 .bg-header {
     background: #FFFBF0;
 }
 
 .btn-greeny {
     background: #A4BC46;
+}
+
+.border-radius {
+    border-radius: 15px;
+}
+
+.img-svg {
+    width: 500px;
+}
+
+#brand-logo {
+    width: 290px;
+}
+
+@media only screen and (max-width: 386px) {
+    #brand-logo {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 296px) {
+    #brand-logo {
+        width: 150px;
+    }
 }
